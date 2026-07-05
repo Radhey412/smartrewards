@@ -17,47 +17,55 @@
         .offer-card { background: #fff; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.06); text-align: center; padding: 20px; display: flex; flex-direction: column; justify-content: space-between; }
         .offer-title { font-size: 18px; font-weight: bold; margin: 10px 0; }
         .profit-tag { color: #2e7d32; font-weight: bold; font-size: 16px; margin-bottom: 15px; background: #e8f5e9; padding: 5px; border-radius: 5px; }
-        .share-btn { background: #2e7d32; color: #fff; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; font-weight: 600; width: 100%; font-size: 16px; }
+        .share-btn { background: #2e7d32; color: #fff; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; font-weight: 600; width: 100%; font-size: 16px; text-decoration: none; display: block; }
+        a { text-decoration: none; }
     </style>
 </head>
 <body>
 
+    <!-- Header Section -->
     <header>
         <div class="logo">✨ SmartRewards</div>
         <div style="font-weight: 600; color: #2e7d32;">Wallet: ₹0.00</div>
     </header>
 
+    <!-- Hero Banner -->
     <div class="hero-banner">
         <h1>Share Links & Earn Daily Cash!</h1>
         <p>Flipkart, Meesho, Credit Cards aur Demat Accounts share karke paise kamayein.</p>
     </div>
 
+    <!-- Main Content -->
     <div class="main-container">
         <h2 class="section-title">Trending Offers</h2>
         <div class="offers-grid">
             
+            <!-- Card 1: Flipkart -->
             <div class="offer-card">
                 <div class="offer-title">Flipkart Shopping</div>
                 <div class="profit-tag">Up to 12% Profit</div>
-                <a href=https://fktr.in/5vr34OD target="_blank">
-    <button class="share-btn">Share & Earn</button>
-</a>
+                <!-- Agar iska link aaye toh href ke andar daal dena -->
+                <a href="#" target="_blank">
+                    <button class="share-btn">Share & Earn</button>
+                </a>
             </div>
 
+            <!-- Card 2: AU Credit Card -->
             <div class="offer-card">
                 <div class="offer-title">AU Credit Card</div>
                 <div class="profit-tag">Flat ₹1500 Profit</div>
-                <a href=https://bitli.in/dccY8Xf target="_blank">
-    <button class="share-btn">Share & Earn</button>
-</a>
+                <a href="https://bitli.in/dccY8Xf" target="_blank">
+                    <button class="share-btn">Share & Earn</button>
+                </a>
             </div>
 
+            <!-- Card 3: Angel One Demat -->
             <div class="offer-card">
                 <div class="offer-title">Angel One Demat</div>
                 <div class="profit-tag">Flat ₹400 Profit</div>
-                <a href=https://bitli.in/O7GnqtAtarget="_blank">
-    <button class="share-btn">Share & Earn</button>
-</a>
+                <a href="https://bitli.in/O7GnqtA" target="_blank">
+                    <button class="share-btn">Share & Earn</button>
+                </a>
             </div>
 
         </div>
